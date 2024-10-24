@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    background-color: #ffff;
+    color: #555;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"], input[type="file"], textarea {
+    color: #5d5d5d;
+    width: 60%;
+    padding: 8px;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #aeb002;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+h1, h2 {
+    font: normal 170% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #aeb002;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.header .logo {
+    text-align: center;
+}
+
+.header .logo_text h1, .header .logo_text h2 {
+    margin: 0;
+}
+
+.menubar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menubar ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menubar ul.menu li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.menubar ul.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menubar ul.menu li.selected a {
+    background-color: #aeb002;
+}
+
+.menubar ul.language-switcher {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menubar ul.language-switcher li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.menubar ul.language-switcher li a {
+    color: white;
+    text-decoration: none;
+}
+
+.site_content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.post .post_content {
+    font-size: 0.8em;
+}
+
+.info_film_page {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.info_film_page .label {
+    font-size: 1.2em;
+}
+
+.info_film_page .value {
+    font-size: 1em;
+    color: #49945a;
+    margin-right: 3%;
+}
+
+.decriptions_film {
+    margin-bottom: 15%;
+}
+
+.decriptions_film img {
+    float: left;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+}
+
+.language-switcher {
+    top: 10px; 
+    right: 10px; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.language-switcher li {
+    display: inline;
+    margin-left: 10px; 
+}
+
+.language-switcher a {
+    text-decoration: none;
+    color: #ffffff; 
+}
