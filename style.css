@@ -178,3 +178,223 @@ ul li {
     text-decoration: none;
     color: #ffffff; 
 }
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(25% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.category a {
+    text-decoration: none;
+    color: inherit;
+}
+.category img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.category h3 {
+    margin: 10px 0;
+    color: #aeb002;
+}
+
+.category p {
+    color: #555;
+}
+.trending_videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.video {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video p {
+    color: #555;
+}
+.gaming_info {
+    padding: 20px;
+}
+
+.gaming_description {
+    margin-bottom: 20px;
+}
+
+.gaming_videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.video {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video p {
+    color: #555;
+}
+
+.gaming_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.gaming_images img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.irl_info {
+    padding: 20px;
+}
+
+.irl_description {
+    margin-bottom: 20px;
+}
+
+.irl_videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.video {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video p {
+    color: #555;
+}
+
+.irl_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.irl_images img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sports_info {
+    padding: 20px;
+}
+
+.sports_description {
+    margin-bottom: 20px;
+}
+
+.sports_videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.video {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video p {
+    color: #555;
+}
+
+.sports_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.sports_images img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.news_info {
+    padding: 20px;
+}
+
+.news_description {
+    margin-bottom: 20px;
+}
+
+.news_videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.video {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video p {
+    color: #555;
+}
+
+.news_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.news_images img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
