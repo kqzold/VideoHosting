@@ -43,17 +43,18 @@
                     </form>
                 </div>
 
-                <div class="sidebar">
-                    <h2>Login</h2>
-                    <form method="post" action="#" id="login">
-                        <input type="text" name="login_field" placeholder="username"/>
-                        <input type="password" name="password_field" placeholder="password"/>
-                        <input type="submit" class="btn" value="login"/>
-                        <div class="lables_passreg_text">
-                            <span><a href="#">Forgot password?</a></span> | <span><a href="#">Register</a></span>
-                        </div>
+                <section class="login">
+                    <h1>Login</h1>
+                    <form action="/login" method="post">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <br>
+                        <button type="submit">Login</button>
                     </form>
-                </div>
+                </section>
 
                 <div class="sidebar">
                     <h2>Latest News</h2>
@@ -67,7 +68,7 @@
                 <h1>Trending Videos</h1>
                 <iframe width="560" height="315" src="https://youtube.com/embed/6osJYjs1TRE" frameborder="0" allowfullscreen></iframe>
                 <iframe width="560" height="315" src="https://youtube.com/embed/3f1N2bsIQqc" frameborder="0" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://youtube.com/embed/Hf9pXbnWIK8" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://youtube.com/embed/MesWtDPzFLA" frameborder="0" allowfullscreen></iframe>
                 <iframe width="560" height="315" src="https://youtube.com/embed/pyC_qiW_4ZY" frameborder="0" allowfullscreen></iframe>
 
                 <h1>Categories</h1>
